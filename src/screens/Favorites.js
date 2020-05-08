@@ -1,9 +1,72 @@
 import React from 'react';
 import CustomText from '../components/common/CustomText';
+import CustomScrollView from '../components/common/CustomScrollView';
 
-const Favorites = () => {
+const Favorites = (props) => {
   return (
-    <CustomText>Favorites</CustomText>
+    <CustomScrollView componentId={props.componentId}>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+      <CustomText>Favorites</CustomText>
+    </CustomScrollView>
   );
 };
 
