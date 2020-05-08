@@ -29,8 +29,17 @@ const appWrapper = Comp => props => {
   );
 };
 
+Navigation.events().registerComponentDidAppearListener(data => {
+  const {componentId, componentName} = data;
+  store.dispatch({ type: '[NAVIGATION] NAVIGATE_BOTTOM_TAB', payload: {componentId, componentName}});
+});
+
 export default () => {
   Navigation.setDefaultOptions({
+    statusBar: {
+      backgroundColor: STATUS_BAR_COLOR,
+      style: 'light',
+    },
     topBar,
     bottomTabs,
     bottomTab,

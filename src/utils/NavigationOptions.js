@@ -5,6 +5,7 @@ import {
 } from './Colors';
 
 export const topBar = {
+  drawBehind: true,
   borderColor: PRIMARY_COLOR,
   borderHeight: 1,
   title: {

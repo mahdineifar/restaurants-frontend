@@ -1,9 +1,73 @@
 import React from 'react';
 import CustomText from '../components/common/CustomText';
+import CustomScrollView from '../components/common/CustomScrollView';
 
-const AddPost = () => {
+const AddPost = props => {
   return (
-    <CustomText>AddPost</CustomText>
+    <CustomScrollView componentId={props.componentId}>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+      <CustomText>AddPost</CustomText>
+    </CustomScrollView>
   );
 };
 

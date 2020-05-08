@@ -1,9 +1,95 @@
 import React from 'react';
 import CustomText from '../components/common/CustomText';
+import CustomScrollView from '../components/common/CustomScrollView';
 
-const Places = () => {
+const Places = props => {
   return (
-    <CustomText>Places screen</CustomText>
+    <CustomScrollView componentId={props.componentId}>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+      <CustomText>Places screen</CustomText>
+    </CustomScrollView>
   );
 };
 
